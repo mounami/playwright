@@ -1,0 +1,38 @@
+# Dependencies
+node_modules/
+
+# Test Results & Reports
+playwright-report/
+test-results/
+reports/
+playwright/.cache/
+
+# Environment Variables (NEVER commit!)
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+npm-debug.log*
+
+# Build outputs
+dist/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Debug files
+debug-*.png
+*.zip
+
+# Lock files (optional, some prefer to commit)
+package-lock.json
+EOF
